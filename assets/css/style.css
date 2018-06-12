@@ -1,0 +1,58 @@
+body {
+  /* Visual */
+  background: url("../images/background.jpg") no-repeat fixed center; 
+  background-size: 100% 100%;
+}
+
+#image-holder {
+
+  /* Positioning */
+  margin: 0 auto;
+
+  /* Box-model */
+  width: 400px;
+
+  /* Typography */
+  text-align: center;
+
+}
+
+#buttons {
+
+  /* Positioning */
+  margin: 50px 0;
+
+  /* Typography */
+  text-align: center;
+  
+  
+}
+
+#question-holder,
+#timer,
+#correct-answer,
+#gif-holder {
+
+  /* Box-model */
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+.answer-holder {
+
+  /* Box-model */
+  width: 150px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+#start {
+  width: 200px;
+  height: 100px;
+}
