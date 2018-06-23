@@ -336,11 +336,11 @@ function question1() {
 	for (var i = 0; i < questionAnswer.answer1.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 1) {
-			$(".answer-holder").append("<button id='correct1'>" + questionAnswer.answer1[i] + "</button>");
+			$(".answer-holder").append("<button id='correct1' class='btn btn-secondary'>" + questionAnswer.answer1[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer1[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer1[i] + "</button>");
 
 		}
 	}
@@ -389,11 +389,11 @@ function question2() {
 	for (var i = 0; i < questionAnswer.answer2.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 2) {
-			$(".answer-holder").append("<button id='correct2'>" + questionAnswer.answer2[i] + "</button>");
+			$(".answer-holder").append("<button id='correct2' class='btn btn-secondary'>" + questionAnswer.answer2[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer2[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer2[i] + "</button>");
 		}
 	}
 	// Detects correct answer for first question
@@ -443,11 +443,11 @@ function question3() {
 	for (var i = 0; i < questionAnswer.answer3.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 3) {
-			$(".answer-holder").append("<button id='correct3'>" + questionAnswer.answer3[i] + "</button>");
+			$(".answer-holder").append("<button id='correct3' class='btn btn-secondary'>" + questionAnswer.answer3[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer3[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer3[i] + "</button>");
 		}
 	}
 	// Detects correct answer for first question
@@ -495,11 +495,11 @@ function question4() {
 	for (var i = 0; i < questionAnswer.answer4.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 2) {
-			$(".answer-holder").append("<button id='correct4'>" + questionAnswer.answer4[i] + "</button>");
+			$(".answer-holder").append("<button id='correct4' class='btn btn-secondary'>" + questionAnswer.answer4[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer4[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer4[i] + "</button>");
 
 		}
 	}
@@ -549,11 +549,11 @@ function question5() {
 	for (var i = 0; i < questionAnswer.answer5.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 3) {
-			$(".answer-holder").append("<button id='correct5'>" + questionAnswer.answer5[i] + "</button>");
+			$(".answer-holder").append("<button id='correct5' class='btn btn-secondary'>" + questionAnswer.answer5[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer5[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer5[i] + "</button>");
 
 		}
 	}
@@ -603,11 +603,11 @@ function question6() {
 	for (var i = 0; i < questionAnswer.answer6.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 0) {
-			$(".answer-holder").append("<button id='correct6'>" + questionAnswer.answer6[i] + "</button>");
+			$(".answer-holder").append("<button id='correct6' class='btn btn-secondary'>" + questionAnswer.answer6[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer6[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer6[i] + "</button>");
 
 		}
 	}
@@ -657,11 +657,11 @@ function question7() {
 	for (var i = 0; i < questionAnswer.answer7.length; i++) {
 		// Gives the correct answer and id called 'correct' 
 		if (i === 1) {
-			$(".answer-holder").append("<button id='correct7'>" + questionAnswer.answer7[i] + "</button>");
+			$(".answer-holder").append("<button id='correct7' class='btn btn-secondary'>" + questionAnswer.answer7[i] + "</button>");
 		}
 		else {
 			// Added the button to the HTML
-			$(".answer-holder").append("<button class='wrong'>" + questionAnswer.answer7[i] + "</button>");
+			$(".answer-holder").append("<button class='wrong btn btn-secondary'>" + questionAnswer.answer7[i] + "</button>");
 
 		}
 	}
